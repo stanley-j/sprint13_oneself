@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-06T13:01:19 IST" name="Default suite" finished-at="2022-12-06T13:01:37 IST" duration-ms="18356">
+    <groups>
+    </groups>
+    <test started-at="2022-12-06T13:01:19 IST" name="Default test" finished-at="2022-12-06T13:01:37 IST" duration-ms="18356">
+      <class name="org.runner.Run">
+        <test-method is-config="true" signature="test1()[pri:0, instance:org.runner.Run@7714e963]" started-at="2022-12-06T13:01:19 IST" name="test1" finished-at="2022-12-06T13:01:19 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="testScenario_1(java.util.HashMap)[pri:1, instance:org.runner.Run@7714e963]" started-at="2022-12-06T13:01:19 IST" name="testScenario_1" data-provider="Sheet1" finished-at="2022-12-06T13:01:37 IST" duration-ms="17374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TESTCASENAME=testScenario_1, UserName=oneselfpath-admin@yopmail.com, Password=Password1!}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario_1 -->
+      </class> <!-- org.runner.Run -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
